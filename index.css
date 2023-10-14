@@ -85,5 +85,77 @@ div.container {
             top: 50%; /* Centra verticalmente */
             transform: translateY(-50%);
         }
+
+.formularios {
+    
+    text-align: center;
+    
+    background-color: red;
+
+} 
+
+
+.mitad1{
+    width: 50%;
+
+    float: left; /* Hace que los divs se coloquen uno al lado del otro */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del div */
+    border: 10px;
+    text-align:left;
+    background-color: black;
+
+  }
+
+
+.mitad2 {
+    width: 50%;
+    float: left; /* Hace que los divs se coloquen uno al lado del otro */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho total del div */
+    border: 10px;
+    text-align:right;
+    background-color: black;
+
+  }
+
+
+.formulario{
+    margin: 0px 70px 0px 0px;
+}
+
+
+h6{
+    font-size:20px ;
+    color: white;
+    text-align: left;
+    margin: 0px 0px 0px 50px;
+    
+}
+
+h7{
+    font-family: cursive;
+    font-size: 20px;
+    color: white;
+    text-align: right;
+    margin:  0px 130px 0px 0px ;
+}
+h8{
+    color: white;
+    text-align: right;
+    margin: 0px 0px 0px 50px;
+}
+
+p5{
+    
+    font-size: 15px;
+    color: white;
+    text-align: right;
+    margin:  0px 70px 0px 100px ;
+
+}
+
+.mapa{
+    border: 10px;
+    margin: 40px;
+}
         
         
